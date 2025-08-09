@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.35f68e60.css",
-    "main.js": "/portfolio/static/js/main.55462138.js",
+    "main.js": "/portfolio/static/js/main.7feee461.js",
     "static/css/487.bfac3b0d.chunk.css": "/portfolio/static/css/487.bfac3b0d.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/portfolio/static/js/487.7ae187c0.chunk.js",
     "static/css/990.24e6fd7f.chunk.css": "/portfolio/static/css/990.24e6fd7f.chunk.css",
@@ -10,6 +10,7 @@
     "static/media/chessScreenshot.png": "/portfolio/static/media/chessScreenshot.5267328a75bdb84088fd.png",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/byuMedallionNavy.png": "/portfolio/static/media/byuMedallionNavy.d4fbdbe109bebccdcfc3.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.f9128a5f57581bd4f235.pdf",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -20,13 +21,12 @@
     "static/media/facebookLogo.png": "/portfolio/static/media/facebookLogo.f46d68b24e9b4f73ee8b.png",
     "static/media/codeInLogo.webp": "/portfolio/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/skill.svg": "/portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.f0f733dd3cd732b39262.pdf",
     "static/media/pwaLogo.webp": "/portfolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "static/media/nextuLogo.webp": "/portfolio/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/portfolio/index.html",
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.35f68e60.css.map": "/portfolio/static/css/main.35f68e60.css.map",
-    "main.55462138.js.map": "/portfolio/static/js/main.55462138.js.map",
+    "main.7feee461.js.map": "/portfolio/static/js/main.7feee461.js.map",
     "487.bfac3b0d.chunk.css.map": "/portfolio/static/css/487.bfac3b0d.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/portfolio/static/js/487.7ae187c0.chunk.js.map",
     "990.24e6fd7f.chunk.css.map": "/portfolio/static/css/990.24e6fd7f.chunk.css.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.35f68e60.css",
-    "static/js/main.55462138.js"
+    "static/js/main.7feee461.js"
   ]
 }
