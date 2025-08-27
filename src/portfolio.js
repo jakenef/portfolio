@@ -23,10 +23,10 @@ const greeting = {
   username: "Jacob Nef",
   title: "Hey, I'm Jacob!",
   subTitle: emoji(
-    "I'm a Computer Science student at Brigham Young University with an emphasis in Software Engineering. I currently work as a Web Developer at BYU, writing unit tests, developing websites, and leading teams to deliver high-quality software solutions."
+    "I'm a Computer Science student at Brigham Young University with an emphasis in Software Engineering. I currently work as a Web Developer at BYU, developing websites in Angular and leading teams to deliver high-quality software solutions."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button. this link doesn't need to be replaced to get your resume in the site. Follow the README instructions for that.
+    "https://docs.google.com/document/d/1u3sY02NJo4QTVA8pNnwfMMT9oWhlsUGdBUaL7h4nFOo/edit?usp=sharing", // Set to empty to hide the button. this link doesn't need to be replaced to get your resume in the site. Follow the README instructions for that.
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,11 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/jakenef",
   linkedin: "https://www.linkedin.com/in/jacob-nef/",
-  gmail: "saadpasta70@gmail.com",
-  //gitlab: "https://gitlab.com/saadpasta",
-  //facebook: "https://www.facebook.com/saad.pasta7",
-  //medium: "https://medium.com/@saadpasta",
-  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  gmail: "jakenef@byu.edu",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -51,13 +47,11 @@ const skillsSection = {
   title: "What I do",
   subTitle: "DEDICATED FULL-STACK ENGINEER WHO LOVES TO LEARN",
   skills: [
+    emoji("⚡ Develop highly interactive user interfaces for web applications"),
     emoji(
-      "⚡ Develop highly interactive user interfaces for web applications"
+      "⚡ Write hundreds of unit tests in Java and TypeScript to catch edge cases"
     ),
-    emoji("⚡ Write hundreds of unit tests in Java and TypeScript to catch edge cases"),
-    emoji(
-      "⚡ Lead teams of 2-6 programmers to deliver 6+ projects on time"
-    )
+    emoji("⚡ Lead teams of 2-6 programmers to deliver 6+ projects on time")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,16 +59,12 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "JavaScript",
@@ -85,16 +75,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "sql-database",
@@ -105,16 +87,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-github"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -134,19 +108,9 @@ const educationInfo = {
       duration: "September 2021 - April 2027",
       desc: "2x Dean's List Recipient (Top 5% of class)",
       descBullets: [
-        "President of BYU Developer's Club",
-        "Researched ... "
+        "President of BYU Developer's Association",
+        "Recieved full tuition scholarship"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      logoPosition: "center",
-      logoScale: 1,
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -178,29 +142,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "BYU College of Family, Home, and Social Sciences",
+      company: "Web Developer (Full-Stack)",
+      companylogo: require("./assets/images/byuMedallionNavy.png"),
+      date: "Sep 2024 – Present",
+      desc: "Developed full-stack web applications using Angular and Node.js, building responsive UIs and robust backend services with modern tooling and clean API integration",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Wrote 100+ Java unit tests to validate business-critical backend methods and protect against edge cases",
+        "Spearheaded development of a research conference platform supporting 500+ concurrent users, including secure form submissions and automated award distribution",
+        "Facilitated 10+ client meetings, to translate functional specs into actionable technical deliverables",
+        "Collaborated in and led teams of 2-6 programmers to deliver 6+ projects on time and with minimal bugs"
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -222,7 +174,8 @@ const bigProjects = {
     {
       image: require("./assets/images/chessScreenshot.png"),
       projectName: "Chess Game",
-      projectDesc: "Features a networked client-server architecture, with a command-line client, a server to manage users and games, and shared modules for implementing chess rules and game state management.",
+      projectDesc:
+        "Features a networked client-server architecture, with a command-line client, a server to manage users and games, and shared modules for implementing chess rules and game state management.",
       footerLink: [
         {
           name: "See Github",
@@ -232,13 +185,14 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "260 Project",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/meterboxdScreenshot.png"),
+      projectName: "Meterboxd",
+      projectDesc:
+        "Meterboxd is a React + Python app that parses your Letterboxd export, enriches it with TMDB data, and shows how your average ratings differ from the community. It highlights where your taste stands out with fast, cached results and a clean UI.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "See Github",
+          url: "http://github.com/jakenef/meterboxd"
         }
       ]
     }
@@ -304,7 +258,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -374,8 +328,7 @@ const resumeSection = {
 // Update this section even if you have github linked, in case the linking fails
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle: "Let's connect and talk about how I can contribute to your team!",
   number: "+92-0000000000",
   email_address: "saadpasta70@gmail.com"
 };
