@@ -23,7 +23,7 @@ const greeting = {
   username: "Jacob Nef",
   title: "Hey, I'm Jacob!",
   subTitle: emoji(
-    "I'm a Computer Science student at Brigham Young University with an emphasis in Software Engineering. I currently work as a Web Developer at BYU, developing websites in Angular and leading teams to deliver high-quality software solutions."
+    "I build software and have fun doing it! I'm studying Computer Science at BYU with an emphasis in Software Engineering. I currently work as a Backend Software Engineer at Awardco, developing a new performance and incentives platform product."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1u3sY02NJo4QTVA8pNnwfMMT9oWhlsUGdBUaL7h4nFOo/edit?usp=sharing", // Set to empty to hide the button. this link doesn't need to be replaced to get your resume in the site. Follow the README instructions for that.
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/jakenef",
   linkedin: "https://www.linkedin.com/in/jacob-nef/",
-  gmail: "jakenef@byu.edu",
+  gmail: "jacob.d.nef@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -47,11 +47,15 @@ const skillsSection = {
   title: "What I do",
   subTitle: "DEDICATED FULL-STACK ENGINEER WHO LOVES TO LEARN",
   skills: [
-    emoji("⚡ Develop highly interactive user interfaces for web applications"),
     emoji(
-      "⚡ Write hundreds of unit tests in Java and TypeScript to catch edge cases"
+      "⚡ Build scalable backend systems and AI-powered products from idea to production"
     ),
-    emoji("⚡ Lead teams of 2-6 programmers to deliver 6+ projects on time")
+    emoji(
+      "⚡ Design performant APIs, databases, and business logic for enterprise-scale applications"
+    ),
+    emoji(
+      "⚡ Leverage agentic AI workflows to ship software faster and solve complex engineering problems"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -89,6 +93,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "C#",
+      fontAwesomeClassname: "fab fa-microsoft"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -106,7 +114,7 @@ const educationInfo = {
       logoScale: 1.2, // Optional: zoom factor for logo within the FIXED circle (e.g., 0.8 = zoomed out, 1.5 = zoomed in, circle size never changes)
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2021 - April 2027",
-      desc: "2x Dean's List Recipient (Top 5% of class)",
+      desc: "3.91 GPA, 2x Dean's List Recipient (Top 5% of class)",
       descBullets: [
         "President of BYU Developer's Association",
         "Recieved full tuition scholarship"
@@ -142,10 +150,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Awardco",
+      company: "Back-End Software Engineer Intern",
+      companylogo: require("./assets/images/awardco-icon.png"),
+      date: "Apr 2026 – Aug 2026",
+      desc: "Built scalable backend systems for an enterprise employee incentives platform using ASP.NET Core, EF Core, SQL, and AI-assisted engineering workflows.",
+      descBullets: [
+        "Built the core rules engine powering configurable enterprise incentive programs for organizations with 100,000+ employees, including AT&T",
+        "Developed complex backend logic for payouts, designing robust handling for edge cases, fail states, and data consistency",
+        "Owned the CSV upload initiative end-to-end, creating 10+ implementation tickets and delivering production-ready bulk import functionality",
+        "Pioneered agentic AI workflows that accelerated engineering productivity while identifying critical production defects before release"
+      ]
+    },
+    {
+      role: "Grouply",
+      company: "Technical Co-Founder & Full-Stack Engineer",
+      companylogo: require("./assets/images/grouplyAppIcon.png"),
+      date: "Sep 2025 – Present",
+      desc: "Built and launched an AI-powered social discovery platform as the sole engineer using React Native, Supabase, OpenAI, and PostgreSQL.",
+      descBullets: [
+        "Shipped a cross-platform mobile app to iOS and Android, reaching 147 downloads and 33 paid subscriptions",
+        "Designed a scalable backend with 16 PostgreSQL tables, 46 REST endpoints, and production, staging, and development environments",
+        "Engineered an AI recommendation system using vector embeddings and the OpenAI SDK for semantic event matching and personalization",
+        "Owned the product end-to-end, from architecture and infrastructure to deployment, subscriptions, and production releases"
+      ]
+    },
+    {
       role: "BYU College of Family, Home, and Social Sciences",
       company: "Web Developer (Full-Stack)",
       companylogo: require("./assets/images/byuMedallionNavy.png"),
-      date: "Sep 2024 – Present",
+      date: "Sep 2024 – Sep 2025",
       desc: "Developed full-stack web applications using Angular and Node.js, building responsive UIs and robust backend services with modern tooling and clean API integration",
       descBullets: [
         "Wrote 100+ Java unit tests to validate business-critical backend methods and protect against edge cases",
@@ -197,7 +231,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
